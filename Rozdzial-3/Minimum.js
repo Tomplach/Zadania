@@ -1,11 +1,11 @@
 function min(number1, number2) {
   if (number1 > number2) {
-  	console.log(number2);
+  	return number2;
   }
   else if (number1 === number2) {
-  	console.log("These numbers are equal");
+  	return "These numbers are equal";
   }
   else {
-  	console.log(number1);
+  	return number1;
   }
 }
